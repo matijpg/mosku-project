@@ -1,0 +1,161 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/*Styles content*/
+html {
+  scroll-behavior: smooth;
+}
+
+.header-img {
+  height: 90vh;
+  background: linear-gradient(rgba(24, 17, 34, 0.3), rgba(80, 12, 23, 0.1)),
+    url("../images/mosku.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+  opacity: 0.9;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgb(32, 32, 32);
+  transition: color 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #a8083e;
+}
+
+.logo-brand {
+  fill: rgb(32, 32, 32);
+  width: 100%;
+}
+
+.section-mosku {
+  padding: 15rem 1rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+
+.section-mosku .container .text-frase {
+  font-family: "Raleway";
+  font-size: calc(0.5rem + 2vh);
+  font-weight: 100;
+  font-style: italic;
+}
+
+.section-mosku .container .title {
+  font-weight: 700;
+  letter-spacing: 2rem;
+  font-size: calc(1em + 8vw);
+}
+
+.btn-primary {
+  border-color: #a8083e;
+  background-color: transparent;
+  transition: background-color 1s;
+  color: #a8083e;
+  width: 300px;
+}
+
+.btn-primary:hover {
+  background-color: #a8083e;
+  border-color: #a8083e;
+  color: whitesmoke;
+}
+
+/*section quines somos*/
+
+.quienesomos {
+  padding: calc(1em + 5vh) calc(0.5em + 1vh);
+}
+
+.titles {
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-size: calc(1em + 2.5vw);
+  color: #a8083e;
+}
+
+.text-secondary {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: italic;
+  font-size: calc(0.5em + 1.2vh);
+  padding: 1.7rem 1rem;
+}
+
+.card {
+  box-shadow: 0px 0px 15px 0px rgba(133, 133, 133, 0.6);
+  transition: transform 1s;
+}
+
+.card-body img {
+  filter: grayscale();
+  transition: filter 1s;
+}
+
+.card-body img:hover {
+  filter: none;
+}
+
+.title-card {
+  font-family: "Bebas Neue";
+  font-weight: 200;
+  font-size: calc(1rem + 2vh);
+  padding: 1rem;
+  margin: 0;
+  color: #242424;
+}
+
+.card .card-body .redes {
+  font-size: 0.7rem;
+}
+
+.card .card-body .redes a {
+  text-decoration: none;
+  color: #292325bd;
+
+  transition: color 1s;
+  margin: 0.5rem;
+}
+
+.card .card-body .redes a:hover {
+  color: #a8083e;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+/*section contactamos*/
+#contactanos {
+  margin: 3rem 0;
+  height: 40;
+}
+
+.fa-whatsapp {
+  color: rgba(12, 170, 12, 0.699);
+}
+
+/*section footer*/
+#section-footer {
+  background-color: whitesmoke;
+  height: 10vh;
+}
+
+.text-footer {
+  font-family: "Bebas Neue";
+  font-weight: 200;
+  font-size: calc(0.5em + 1vh);
+}
+
+.text-footer a {
+  text-decoration: none;
+  color: #a8083e;
+}
