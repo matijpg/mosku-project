@@ -1,4 +1,4 @@
-# 💈 MOSKÚ 
+# MOSKÚ 
 
 Sitio web para ***Moskú***, barberia clásica y contemporánea.
 
