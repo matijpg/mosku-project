@@ -55,6 +55,10 @@ html {
   font-size: calc(1em + 8vw);
 }
 
+.btn {
+  border: 2px solid transparent;
+}
+
 .btn-primary {
   border-color: #a8083e;
   background-color: transparent;

@@ -12,7 +12,11 @@
   <!--font awesome-->
   <link rel="stylesheet" href="./css/all.min.css">
   <script defer src="./scripts/all.js"></script>
-
+  <!--ScrollReveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: true });
+  </script>
   <title>Moskú | Barberia</title>
 </head>
 
@@ -90,9 +94,9 @@
         <h4 class="text-frase">
           Barberia clásica y contemporanea
         </h4>
-        <h1 class="text-uppercase title">Moskú </h1>
+        <h1 class="text-uppercase title title-header">Moskú </h1>
         <p>
-          <a href="#quienes" class="btn btn-primary my-2 p-2">Ver más</a>
+          <a href="#quienes" class="btn btn-vermas btn-primary my-2 p-2">Ver más</a>
         </p>
       </div>
     </section>
@@ -108,7 +112,7 @@
           conformada por dos amigos de toda la vida, <i>Enzo y Nacho.</i></p>
         <div class="row">
           <div class="col-lg-6 mt-4">
-            <div class="card">
+            <div class="card card-left">
               <div class="card-body">
                 <img src="images/enzo.jpg" alt="Person One" class="img-fluid rounded-circle w-50">
                 <h3 class="title-card">Enzo Moren</h3>
@@ -128,7 +132,7 @@
             </div>
           </div>
           <div class="col-lg-6 mt-4">
-            <div class="card">
+            <div class="card card-rigth">
               <div class="card-body">
                 <img src="images/enzo.jpg" alt="Person One" class="img-fluid rounded-circle w-50">
                 <h3 class="title-card">Nacho Mendez</h3>
@@ -158,11 +162,11 @@
       <section class="text-center">
         <h3 class="text-uppercase titles">¡Saca turnos!</h3>
         <h4 class="text-secondary ">Consultanos por un turno haciendo click en el icono de <b>whatsapp</b></h4>
-        <div>
+        <div class="btn-turno">
           <a href="https://api.whatsapp.com/send?phone=34123456789">
             <i class="fab fa-whatsapp fa-4x"></i>
           </a>
-          <p class="text-secondary p-0">¡Dame un turno!</p>
+          <p class="text-secondary p-0 ">¡Dame un turno!</p>
         </div>
       </section>
     </div>
@@ -178,6 +182,8 @@
   <script src="scripts/popper.min.js"></script>
   <!--Archivo Bootstrap js-->
   <script src="scripts/bootstrap.min.js"></script>
+  <!--Scroll Reveal-->
+  <script src="scripts/animation.js"></script>
 </body>
 
 </html>
