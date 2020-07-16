@@ -29,15 +29,15 @@ sr.reveal(".btn-vermas", {
 });
 
 sr.reveal(".card-left", {
-  duration: 1000,
-  origin: "left",
+  duration: 1200,
+  origin: "bottom",
   easing: "ease-in",
   distance: "200px",
 });
 
 sr.reveal(".card-rigth", {
-  duration: 1000,
-  origin: "rigth",
+  duration: 2000,
+  origin: "bottom",
   easing: "ease-in",
   distance: "200px",
 });
