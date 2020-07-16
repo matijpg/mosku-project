@@ -29,14 +29,14 @@ sr.reveal(".btn-vermas", {
 });
 
 sr.reveal(".card-left", {
-  duration: 1200,
+  duration: 1000,
   origin: "left",
   easing: "ease-in",
   distance: "200px",
 });
 
 sr.reveal(".card-rigth", {
-  duration: 1200,
+  duration: 1000,
   origin: "rigth",
   easing: "ease-in",
   distance: "200px",
